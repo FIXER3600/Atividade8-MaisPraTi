@@ -5,5 +5,9 @@ public class Main {
         Calculadora calculadora = new Calculadora();
         System.out.println(calculadora.calcular(5,2,'-'));
 
+        Palindromo p = new Palindromo();
+        System.out.println(p.isPalindromo("ok"));
+
+
     }
 }
