@@ -1,3 +1,5 @@
+package Exercicio3;
+
 import java.util.Scanner;
 public class Fibonacci {
     public void sequence() {
