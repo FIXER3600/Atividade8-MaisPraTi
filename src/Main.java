@@ -8,6 +8,8 @@ public class Main {
         Palindromo p = new Palindromo();
         System.out.println(p.isPalindromo("ok"));
 
+        Fibonacci f=new Fibonacci();
+        f.sequence();
 
     }
 }
