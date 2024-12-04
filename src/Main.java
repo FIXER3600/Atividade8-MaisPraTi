@@ -4,6 +4,7 @@ import Exercicio3.Fibonacci;
 import Exercicio4.NumeroInvertido;
 import Exercicio5.Anagrama;
 import Exercicio6.JogoAdvinhacao;
+import Exercicio7.CountPalavras;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -22,7 +23,9 @@ public class Main {
 //        n.invertion();
 //        Anagrama a= new Anagrama();
 //        a.isAnagrama();
-        JogoAdvinhacao jogo = new JogoAdvinhacao();
-        jogo.jogar();
+//        JogoAdvinhacao jogo = new JogoAdvinhacao();
+//        jogo.jogar();
+        CountPalavras countPalavras=new CountPalavras();
+        countPalavras.contarPalavras();
     }
 }
